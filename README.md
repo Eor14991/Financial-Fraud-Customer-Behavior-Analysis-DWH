@@ -66,9 +66,9 @@ Follow these steps in sequence to build the data warehouse and reproduce the ana
 
    * Defines **structured tables** with correct data types (`INT`, `DECIMAL`, `DATE`, etc.).
 
-2. **Load Clean Data (Choose ONE method):**
+2. **Load Clean Data:**
 
-   * **Option A (SQL Only):**
+   * **A (SQL Only):**
 
      ```sql
      Run 2a_load_silver_layer.sql
@@ -76,13 +76,13 @@ Follow these steps in sequence to build the data warehouse and reproduce the ana
 
      Cleans data (removes symbols, converts dates, etc.) and loads it into Silver tables.
 
-   * **Option B (Python + Pandas):**
+   * **B (Python + Pandas):**
 
      ```python
      Run 2b_bronze_to_silver_etl.ipynb
      ```
 
-     Reads Bronze data → transforms with **pandas** → writes back to Silver tables.
+     Reads Bronze Transaction data → transforms with **pandas** → writes back to Silver tables.
 
 ---
 
