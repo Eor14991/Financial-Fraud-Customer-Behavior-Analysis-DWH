@@ -1,8 +1,3 @@
-Got it 👍 You want this project documentation rewritten in a **README.md (Markdown format)** so it looks clean and professional for GitHub.
-Here’s the fixed version:
-
----
-
 # 💳 Financial Fraud & Customer Behavior Analysis DWH
 
 This repository contains the complete **end-to-end data warehousing project** for analyzing financial transactions.
